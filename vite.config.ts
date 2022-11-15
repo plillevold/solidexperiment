@@ -5,8 +5,9 @@ export default defineConfig({
   plugins: [solidPlugin()],
   server: {
     port: 3000,
+    base: '/solidexperiment/.'
   },
   build: {
-    target: 'esnext',
+    target: 'esnext'
   },
 });
